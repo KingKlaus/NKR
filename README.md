@@ -25,9 +25,6 @@ Example showing the deployment view of  an  atm :
  
 The sequence diagram of an atm:
 
-![](Use Case Diagram1.jpg)
- 
-
 Atm class diagram:
 
 
