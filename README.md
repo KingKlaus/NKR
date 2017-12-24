@@ -41,5 +41,5 @@ balance .
 
 
 
-##Conclusion:
+## Conclusion:
 As we are still working on this project , so far we know that OOAD is very important especially while you are designing  an atm system and our team believes that  the atm design  is simple and  is easy to use as a cardholder. As   it provides you more than one option and allows you to create more than one accounts as desired. 
