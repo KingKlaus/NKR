@@ -14,19 +14,28 @@ The ATM will service one customer at a time. A customer will  be  required  to  
 Object-Oriented Analysis
 Object-oriented  analysis  looks  at  the  problem  domain, with  the  aim  of  producing  a  conceptual  model  of  the information  that  exists  in  the  area  being  analyzed. Analysis models do not consider any implementation constraints or how the system is to be built. The identified objects reflect entities and operations that are associated with the problem to be solved. 
 
-Diagram Showing a Use Case diagram in UML
+Diagram Showing a Use Case diagram in UML(image file uploaded)
  
 
 ## THE DEPLOYMENT VIEW
 
 
-Example showing the deployment view of  an  atm :
+Example showing the deployment view of  an  atm :(image file uploaded)
 
  
-The sequence diagram of an atm:
+The sequence diagram of an atm:(file uploaded)
+For this diagram the image uploaded is not completly finished because it doesnt show all the options that a customer have after insertind the card in the atm,the reason why we did this is because we wanted the image to look small and simple,but normally we know that an Atm sequence diagram should contain more than the options shown on the diagram.once a custumer insert his card in the Atm machine he should be able to:
+-deposit
+-Withdrawl money
+-Make money transfer to other  accounts
+-mobile topup
+-check current balance
+And once the card or PIN is invalid then the machine immediately rejects the card. 
 
-Atm class diagram:
 
+Atm class diagram:(image file uploaded)
+Also for this diagram  a customer has more options than withdrawl,deposit,mobile top up he can also transfer mmoney  and check current
+balance .
 
  
 
