@@ -1,4 +1,4 @@
-Object Oriented UML Modeling for ATM Systems
+# Object Oriented UML Modeling for ATM Systems
 
 Abstract
 The Object-Oriented Modeling assists the programmer to address the complexity of a problem domain by considering the problem not as a set of functions that can be performed but primarily as a set of related, interacting Objects. This article is based on the approach of Object Oriented modeling through Unified Modeling Language (UML) for an ATM system in banking sector. The main aim of this article is to provide a flexible and faithful environment for a customer, who wants to do online banking transactions. After successful authentication, the customer can withdraw the desire amount (within the prescribed limit) from the ATM machine or can transfer amount to other account. User can also change the pin code. The ATM has solved many problems and now customer can have money transaction 24/7. In this article UML Class, Interaction diagram, Activity diagram & Use Case diagram are also designed for the ATM System. 
