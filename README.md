@@ -37,8 +37,22 @@ Atm class diagram:(image file uploaded)
 Also for this diagram  a customer has more options than withdrawl,deposit,mobile top up he can also transfer mmoney  and check current
 balance .
 
- 
+ # Requirements
+The ATM will service one customer at a time. A customer will be required to insert an ATM card and enter a personal identification number (PIN) both of which will be sent to the bank for validation as part of each transaction.After the customer performs the following operation The customer he will then be able to perform one or more transactions. The card will be retained in the machine until the customer indicates that he/she desires no further transactions, at which point it will be returned - except as noted below.
 
+The ATM must be able to provide the following services to the customer:
+
+A customer must be able to make a cash withdrawl from any suitable account linked to the card and Approval must be obtained from the bank before cash is dispensed.
+A customer must be able to make a deposit to any account linked to the card. The customer will enter the amount of the deposit into the ATM, subject to manual verification when the envelope is removed from the machine by an operator. Approval must be obtained from the bank before physically accepting the envelope.
+A customer must be able to make a transfer of money between any two accounts linked to the card.
+A customer must be able to check balance inquiry of any account linked to the card.
+The ATM will communicate each transaction to the bank and obtain verification that it was allowed by the bank. In the case of a cash withdrawl or deposit, a second message will be sent after the transaction has been physically completed (cash dispensed or envelope accepted).
+
+If the bank determines that the customer's PIN is invalid, the customer will be required to re-enter the PIN before a transaction can proceed. If the customer is unable to successfully enter the PIN after three tries, the card will be rejected by the machine.
+
+If a transaction fails for any reason other than an invalid PIN, the ATM will display an explanation of the problem, and will then ask the customer whether he/she wants to do another transaction.
+
+The ATM will provide the customer with a printed receipt for each successful transaction, showing the date, time, machine location, type of transaction, account(s), amount, and ending and available balance(s) of the affected account ("to" account for tranfers).
 
 
 ## Conclusion:
